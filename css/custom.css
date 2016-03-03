@@ -199,7 +199,7 @@ header .header-content .header-content-inner p {
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
-    background-color: #fff;
+    background-color: #SteelBlue;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -211,12 +211,12 @@ header .header-content .header-content-inner p {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: SteelBlue;
 }
 
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
-    color: #222;
+    color: SteelBlue;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -237,33 +237,33 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
+        border-color: SteelBlue;
         background-color: transparent;
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: SteelBlue;
         letter-spacing: 0.5em;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: SteelBlue;
     }
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: SteelBlue;
     }
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fff;
+        color: SteelBlue;
     }
 
     .navbar-default.affix {
-        border-color: #fff;
-        background-color: #fff;
+        border-color: SteelBlue;
+        background-color: SteelBlue;
         box-shadow: 0px 7px 20px 0px rgba(0,0,0,0.1);
     }
 
@@ -274,12 +274,12 @@ header .header-content .header-content-inner p {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: SteelBlue;
     }
 
     .navbar-default.affix .nav > li>a,
     .navbar-default.affix .nav>li>a:focus {
-        color: #222;
+        color: SteelBlue;
     }
 
     .navbar-default.affix .nav > li>a:hover,
@@ -304,7 +304,7 @@ header .header-content .header-content-inner p {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     border-color: #eee;
-    color: #222;
+    color: SteelBlue;
     background-color: #eee;
 }
 
