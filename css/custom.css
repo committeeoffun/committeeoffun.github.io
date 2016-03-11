@@ -261,8 +261,8 @@ header .header-content .header-content-inner p {
    border: 0px;
 }
 
-.event-container .col .info{
-    //background-color:lightgrey;
+.event-container .col table tr td{
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 .event-container img
