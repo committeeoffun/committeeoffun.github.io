@@ -66,12 +66,10 @@ Although you can use them, for a more unique website, replace these images with 
 							<!--<li><a href="#">Synergize</a></li>-->
 						<!--</ul>-->
 					<!--</li>-->
-                    <li>
-                        <a href="#">Upcoming Events</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
+                    <li><a href="#upcoming-events">Upcoming Events</a></li>
+                    <li><a href="#mailing-list">Mailing List</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#contact-us">Contact</a></li>
 
                 </ul>
                 
@@ -87,15 +85,15 @@ Although you can use them, for a more unique website, replace these images with 
                 <p>Ice Skating.  Bike trips.  Bowling.  Museums.  Cafe tours.  Fishing.  Dinners.  Live Music.  Frisbee games.
                     Football games.  Rock climbing.  Canoe trips.  Artsy stuff.  Kite Surfing.  Picnics on the beach.
                     Picnics in the park.  Picnics everywhere.</p>
-                <a target="_blank" href="https://groups.google.com/forum/#!forum/committeeoffun" class="btn btn-primary btn-lg">Join the Mailing List</a>
+                <!--<a target="_blank" href="https://groups.google.com/forum/#!forum/committeeoffun" class="btn btn-primary btn-lg">Join the Mailing List</a>-->
             </div>
         </div>
     </header>
 
 
 	 <!--Intro Section-->
-    <section class="intro">
-        <h1 class="section-header">Upcoming Events</h1>
+    <section class="content" id="upcoming-events">
+        <h1>Upcoming Events</h1>
         <div class="event-container">
             <div class="col">
                 <h2>Ice Skating</h2>
@@ -134,31 +132,9 @@ Although you can use them, for a more unique website, replace these images with 
         </div>
     </section>
 
-	<!-- Content 1 -->
-    <section class="content">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <img class="img-responsive img-circle center-block" src="images/amsterdam_aerial.jpg" alt="">
-                </div>
-                <div class="col-sm-6">
-                	<h2 class="section-header">About us</h2>
-                	<p class="lead text-muted">
-                        The Committee of Fun was founded by a bunch of PhD students in Science Park who, desperate to escape the
-                        jealous embrace of Academia, decided to start some sort of organization that would break down the
-                        wall separating their alienated and research-bound comrades from the free world.
-                        <br/>
-                        Our goal is to organize events, and, more imporantly, to provide a place for people to organize
-                        their own events, in and around Amsterdam.
-                    </p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <div>
-        fdsfdsfdsaf
+    <section class = "content" id="mailing-list">
+        <h1>The Mailing List</h1>
+        <!-- The forup will not display if you're just running locally.  -->
         <iframe id="forum_embed"
           src="javascript:void(0)"
           scrolling="no"
@@ -172,17 +148,35 @@ Although you can use them, for a more unique website, replace these images with 
              + '&showsearch=true&showpopout=true&showtabs=false'
              + '&parenturl=' + encodeURIComponent(window.location.href);
         </script>
-        gfdagfda
-    </div>
+    </section>
+
+    	<!-- Content 1 -->
+    <section class="content"  id="about-us">
+        <h1>About us</h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <img class="img-responsive img-circle center-block" src="images/amsterdam_aerial.jpg" alt="">
+            </div>
+            <div class="col-sm-6">
+                <p class="lead">
+                    The Committee of Fun was founded by a bunch of PhD students in Science Park who, desperate to
+                    escape the jealous embrace of Academia, decided to start some sort of organization that would
+                    allow themselves and others to escape to the free world.
+                    <br/><br/>
+                    Our goal is to organize events, and, more imporantly, to provide a place for people to organize
+                    their own events, in and around Amsterdam.
+                </p>
+            </div>
+
+        </div>
+    </section>
 
 	<!-- Footer -->
-    <footer class="page-footer">
+    <footer class="page-footer" id="contact-us">
     	<!-- Contact Us -->
         <div class="contact">
-        	<div class="container">
-				<h2 class="section-heading">Contact Us</h2>
-				<p><span class="glyphicon glyphicon-envelope"></span><br>activity-committee-science@uva.nl</p>
-        	</div>
+            <h2 class="section-heading">Contact Us</h2>
+            <p><span class="glyphicon glyphicon-envelope"></span><br>activity-committee-science@uva.nl</p>
         </div>
     </footer>
 
