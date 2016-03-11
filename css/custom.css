@@ -105,18 +105,19 @@ header .header-content .header-content-inner p {
     text-align: center;
 }
 
-.content-even {
+.content {
     padding: 50px 0;
     font-family: "Courier New", Courier, monospace;
-    background-color: #B8B4AD;
 }
 
-.content-odd{
-    padding: 50px 0;
-    font-family: "Courier New", Courier, monospace;
+.content:nth-child(even) {
     background-color: SteelBlue;
 }
 
+.content:nth-child(odd) {
+    background-color: #B8B4AD;
+    color=#fff;
+}
 
 .content-2 {
 	padding: 20px 0;
@@ -125,7 +126,7 @@ header .header-content .header-content-inner p {
     color=#fff
 }
 
-section h1{
+.content h1{
     text-align:center;
     font-weight:bold;
 }
