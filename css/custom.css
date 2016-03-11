@@ -107,6 +107,7 @@ header .header-content .header-content-inner p {
 
 .content {
     padding: 100px 0;
+    background-color: #B8B4AD;
 }
 
 .content-2 {
@@ -196,6 +197,58 @@ header .header-content .header-content-inner p {
 .text-light {
     color: rgba(255,255,255,.7);
 }
+
+.row event-row{
+    background-color:tan;
+    opacity:1;
+    text-align: left
+}
+
+
+.intro h1{
+    font-family: "Courier New", Courier, monospace;
+}
+
+.event-container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  height:250;
+  border-color:black;
+}
+
+.event-container h2{
+    font-family: "Courier New", Courier, monospace;
+}
+
+.event-container .col{
+  float:center;
+  background-color:#B8B4AD;
+  width:33%;
+  border-style: solid;
+}
+
+.event-container .col table, th, td {
+
+   padding-left:5px;
+   padding-right:5px;
+   text-align: left;
+   border: 0px;
+}
+
+.event-container .col .info{
+    //background-color:lightgrey;
+}
+
+.event-container img
+{
+ max-height: 250px;
+ width:100%;
+}
+
+
+
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
