@@ -111,13 +111,12 @@ header .header-content .header-content-inner p {
     text-align:center;
 }
 
-.content:nth-child(odd) {
+.oddsection{
     background-color: SteelBlue;
 }
 
-.content:nth-child(even) {
+.evensection{
     background-color: #B8B4AD;
-    color=#fff;
 }
 
 .content-2 {
