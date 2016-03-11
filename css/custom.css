@@ -108,6 +108,7 @@ header .header-content .header-content-inner p {
 .content {
     padding: 50px 0;
     font-family: "Courier New", Courier, monospace;
+    text-align:center;
 }
 
 .content:nth-child(even) {
@@ -185,6 +186,11 @@ header .header-content .header-content-inner p {
 	background-position: 50% 50%;
 	}
 
+.lead{
+    text-align:justify;
+    padding:30px 50px;
+}
+
 .page-footer {
 	text-align: center;
 	}
@@ -244,6 +250,7 @@ header .header-content .header-content-inner p {
   background-color:#B8B4AD;
   width:33%;
   border-style: solid;
+  margin:auto;
 }
 
 .event-container .col table, th, td {
