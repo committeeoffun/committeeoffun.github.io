@@ -111,11 +111,11 @@ header .header-content .header-content-inner p {
     text-align:center;
 }
 
-.content:nth-child(even) {
+.content:nth-child(odd) {
     background-color: SteelBlue;
 }
 
-.content:nth-child(odd) {
+.content:nth-child(even) {
     background-color: #B8B4AD;
     color=#fff;
 }
