@@ -248,6 +248,7 @@ header .header-content .header-content-inner p {
   float:center;
   background-color:#B8B4AD;
   width:33%;
+  min-width:300px;
   border-style: solid;
   margin:auto;
 }
