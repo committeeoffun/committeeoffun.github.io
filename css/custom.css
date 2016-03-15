@@ -264,6 +264,7 @@ header .header-content .header-content-inner p {
    padding-right:5px;
    text-align: left;
    border: 0px;
+   vertical-align: text-top;
 }
 
 .event-container .col table tr td{
