@@ -54,6 +54,11 @@ header .header-content .header-content-inner h1 {
     font-size: 50px;
 }
 
+.backgroundRed{
+    background: SteelBlue;
+    color: #B8B4AD;
+}
+
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;

@@ -4,3 +4,7 @@ $('#siteNav').affix({
 		top: 100
 	}
 })
+
+var backgroundInterval = setInterval(function(){
+    $(".blinky").toggleClass("backgroundRed");
+ },300)
