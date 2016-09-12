@@ -2,22 +2,20 @@
 layout: default
 ---
 
-<div class="home">
+{% include navbar.html %}
+{% include header.html %}
 
-  <h1 class="page-heading">Posts</h1>
+<section class="content oddsection">
+    {% include events.html %}
+</section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<section class = "content evensection">
+    {% include mailing_list.html %}
+</section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<section class="content oddsection" >
+    {% include about_us.html %}
+</section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+{% include footer.html %}
+{% include jquery_scripts.html %}
