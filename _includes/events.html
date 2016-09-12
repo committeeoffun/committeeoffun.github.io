@@ -1,0 +1,61 @@
+
+<div id="upcoming-events">
+    <h1>Events</h1>
+    
+    <table>
+        <tr>
+        
+            {% include event.html 
+                name="Ice Skating" 
+                image_url = "http://www.iamsterdam.com/remote/ndtrc/Images/20120503/76b6a742-0b67-4ec3-8d7e-1ab21064b656.jpg?width=701&height=394&scale=both&mode=crop&quality=70"
+                time="21:00 - 23:00, Thursday March 24, 2016" 
+                map_url="https://www.google.nl/maps/place/Jaap+Eden+IJsbaan/@52.349073,4.9449697,15z/data=!4m2!3m1!1s0x0:0x4cac70cc8cbf8232"
+                address="Jaap Eden ice rink, Radioweg 64, 1098 NJ AMSTERDAM"
+                info="A night of skating at the ice rink.  Open to all, no experience required."
+                cost="€13 or FREE for the first 70 PhD candidates from the Faculty of Science who sign up. Includes skates and ticket (funded by the Science Activity Committee)."
+                past="true"
+            %}
+
+            
+            {% include event.html 
+                name="Kayaking" 
+                image_url = "https://s-media-cache-ak0.pinimg.com/236x/8f/fd/4d/8ffd4df7e19225e415289ff26b6cf306.jpg"
+                map_url="https://www.google.nl/maps/place/Camping+Zeeburg+Amsterdam/@52.3668142,4.9495132,13.91z/data=!4m5!3m4!1s0x47c609386990b15f:0x70fb33781e2bed04!8m2!3d52.3653586!4d4.9595227"
+                address="Camping Zeeburg, Zuider IJdijk 20, 1095 KN Amsterdam"
+                time="11:00-17:00, Sunday May 29, 2016" 
+                info="A day of Kayaking in and around the canals of Amsterdam."
+                cost="TBD.  Less than 20 euro."
+                past="true"
+            %}
+    
+            
+            {% include event.html 
+                name="Trampoline Dodgeball" 
+                image_url = "https://i.ytimg.com/vi/vHww9W4AwYY/hqdefault.jpg"
+                map_url="https://www.google.nl/maps/place/VROG/@52.3495367,4.9441348,15z/data=!4m2!3m1!1s0x0:0x1e2dbee38167caba?sa=X&ved=0ahUKEwiAq6rpqvDNAhVCcBoKHXk3AAcQ_BIIjQEwDg"
+                address="VROG: Kruislaan 222b, 1098 SL Amsterdam"
+                time="18-20h, Tuesday 26 July, 2016" 
+                info="A game of dodgeball, on trampolines.  There may be some pie."
+                cost="Only 5 euro for employees in UvA Faculty of Science (Thanks to FNWI Funding)  10 euro for others."
+                past="true"
+            %}
+
+            
+            {% comment %}
+            To add a new event, just copy the block below and fill in the fields:
+            {% include event.html 
+                name="" 
+                image_url = ""
+                map_url=""
+                address=""
+                time="" 
+                info=""
+                cost=""
+                past="false"
+            %}
+            {% endcomment %}
+            
+        </tr>
+    </table>
+    
+</div>
