@@ -239,11 +239,14 @@ header .header-content .header-content-inner p {
 
 #upcoming-events {
     overflow-x: scroll;
+/*    direction: rtl;*/
+    
 /*    white-space: nowrap;*/
 }
 
 
 .event-container{
+    
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -251,7 +254,6 @@ header .header-content .header-content-inner p {
   width:300px;
   height:250;
   border-color:black;
-  opacity: 50%;
 }
 
 .event-container h2{

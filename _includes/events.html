@@ -5,6 +5,7 @@
     <table>
         <tr>
         
+            {% comment %}
             {% include event.html 
                 name="Ice Skating" 
                 image_url = "http://www.iamsterdam.com/remote/ndtrc/Images/20120503/76b6a742-0b67-4ec3-8d7e-1ab21064b656.jpg?width=701&height=394&scale=both&mode=crop&quality=70"
@@ -27,6 +28,8 @@
                 cost="TBD.  Less than 20 euro."
                 past="true"
             %}
+            
+            {% endcomment %}
     
             
             {% include event.html 
@@ -38,6 +41,18 @@
                 info="A game of dodgeball, on trampolines.  There may be some pie."
                 cost="Only 5 euro for employees in UvA Faculty of Science (Thanks to FNWI Funding)  10 euro for others."
                 past="true"
+            %}
+            
+            {% include event.html 
+                name="Bike-Camping" 
+                image_url = "https://sites.google.com/site/paalkampeerders/_/rsrc/1343576155616/locatiebeschrijvingen/campanula/Campanula%20%281%29.jpg"
+                map_url="http://goo.gl/maps/yBZm"
+                address="Near Zeewolde.  Depart by bike from Science Park"
+                time="Leave at 12:00, Saturday Sept 24.  Back by Sunday afternoon. " 
+                info="We'll bike to a campsite, make a fire, and set up camp.  For details, see the sign-up form."
+                signup_url="https://goo.gl/forms/KGjNqWI9QloeVT0j2"
+                cost="Free (though you need to buy a sleeping bag if you don't have one (~10euro))"
+                past="false"
             %}
 
             
