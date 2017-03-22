@@ -28,10 +28,7 @@
                 cost="TBD.  Less than 20 euro."
                 past="true"
             %}
-            
-            {% endcomment %}
-    
-            
+          
             {% include event.html 
                 name="Trampoline Dodgeball" 
                 image_url = "https://i.ytimg.com/vi/vHww9W4AwYY/hqdefault.jpg"
@@ -54,7 +51,20 @@
                 cost="Free (though you need to buy a sleeping bag if you don't have one (~10euro))"
                 past="false"
             %}
-
+            
+            {% endcomment %}
+            
+            To add a new event, just copy the block below and fill in the fields:
+            {% include event.html 
+                name="Paintball" 
+                image_url = "http://xtreampaintball.ca/uploads/gallery/xtream_galleryimage_08.jpg"
+                map_url="https://www.google.nl/maps/place/Paintball+Jungle/@52.4164895,4.8243103,11.9z/data=!4m5!3m4!1s0x47c5e39fb7f086f5:0x78b641a10ece1e8c!8m2!3d52.488085!4d4.794674?hl=en"
+                address="Paintball Jungle, Wandelweg 12, Wormerveer"
+                time="Saturday 8 April, 13:00" 
+                info="An afternoon of paintball"
+                cost="€15-30"
+                past="false"
+            %}
             
             {% comment %}
             To add a new event, just copy the block below and fill in the fields:
